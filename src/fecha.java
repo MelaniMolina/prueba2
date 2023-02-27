@@ -26,7 +26,7 @@ public class fecha extends  JFrame {
     private JButton buttonCrear;
     private JTextField codigo;
 
-    //Combox datos 
+    //Combox datos
 
     public fecha() {
         conectar();
@@ -153,8 +153,6 @@ public class fecha extends  JFrame {
             }
         });
     }
-
-
         public static void main (String[]args){
             fecha f = new fecha();
             f.setContentPane(new fecha().panel);
@@ -162,7 +160,6 @@ public class fecha extends  JFrame {
             f.setVisible(true);
             f.pack();
         }
-
         public void conectar () {
 
             try {
@@ -173,7 +170,6 @@ public class fecha extends  JFrame {
             }
 
         }
-
 }
 
 
